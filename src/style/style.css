@@ -1,0 +1,452 @@
+/* 引用字形 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
+/* Media */
+@media(max-width:576px){
+    /* HOME-all */
+    #top .navbar_top{
+        display: flex;
+        flex-direction: row;
+    }
+    #top .navbar_top img{
+        height: 50px;
+    }
+
+    #home{
+        z-index: -1;
+		}
+		.top-color{
+			width: 100vw;
+			height: 20px;
+			background: rgba(65, 53, 77, 0.9);
+		}
+
+    #top nav ul li a{
+				margin: 0rem;
+				padding: 0.3rem;
+    }
+    
+    #section01,#section02,#section04{
+        width: 100vw;
+        height: 100vh;
+    }
+    /* Home-section01 */
+    #section01 .carousel-caption{
+        left: 10% !important;
+        top:40%
+    }
+    .titleh401{
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+    .carousel-item img{
+        height: 100%;
+        background-size: cover;
+    }
+    /* Home-section02 */
+    .tooltip .tooltip-inner{
+      background-color:rgb(222, 126, 68);
+    }
+    .tooltip .tooltip-inner h1{
+      font-size: 24px;
+    }
+    .tooltip .tooltip-inner h3{
+      font-size: 20px;
+    }
+    #section02 .title{
+        width: 100%;
+        color: white;
+        backdrop-filter: blur(2px) brightness(0.8);
+        display: flex;
+        flex-direction: row;
+    }
+    #section05 .queQ{
+        font-size: 1rem;
+    }
+    #section05 .index{
+        font-size: 2rem;
+    }
+    #section05 p{
+        font-size: 1rem;
+    }
+
+    /* Location */
+    #location{
+        width: 100vw;
+        height: 100%;
+    }
+    /* story */
+    #story{
+        width: 100vw;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+        /* 首頁 */
+        #top .navbar_top{
+        display: flex;
+        flex-direction: row;
+        }
+
+        #top .navbar_top img{
+            height: 70px;
+        }
+				#top nav ul li a{
+					margin: 0rem;
+					padding: 0.3rem;
+        }
+				.top-color{
+					width: 0;
+					height: 0;
+				}
+        /* Home-all */
+        #section01,#section02,#section04{
+            width: 100vw;
+            height: 100vh;
+        }
+        /* Home-section01 */
+        #section01 .carousel-caption{
+          left: 10% !important;
+        }
+
+        .titleh401{
+          background-color: rgba(0, 0, 0, 0.25);
+        }
+        /* Home-section02 */
+        .tooltip .tooltip-inner{
+          background-color:rgb(222, 126, 68);
+        }
+        .tooltip .tooltip-inner h1{
+          font-size: 24px;
+        }
+        .tooltip .tooltip-inner h3{
+          font-size: 20px;
+        }
+        #section02 .title{
+          width: 100%;
+          color: white;
+          backdrop-filter: blur(2px) brightness(0.8);
+          display: flex;
+          flex-direction: row;
+      }
+        #section05 .queQ{
+            font-size: 1.2rem;
+        }
+        #section05 .index{
+            font-size: 2rem;
+        }
+        #section05 p{
+            font-size: 1.2rem;
+        }
+        .nav-tabs {
+            border-bottom: 0px solid #dee2e6 !important;
+        }
+        .img-about{
+            text-align: center;
+        }
+        /* Location */
+        #loacation{
+        width: 100vw;
+        height: 100%;
+        }
+
+        /* story */
+        #story{
+        width: 100vw;
+        }
+        /* login */
+        #login{
+          width: 100vw;
+          height: 90vh;
+        }
+      
+    }
+    
+@media(min-width:768px){
+        /* 首頁 */
+        #top .navbar_top{
+            display: flex;
+            flex-direction: column;
+            }
+        #top .navbar_top img{
+            height: 120px;
+            }
+        .top-color{
+            width: 0;
+            height: 0;
+        }
+        #section01,#section02,#section04{
+            height: 100vh;
+            width: 100vw;
+        }
+        #section02 .title{
+            width: 100%;
+            height: 100%;
+            color: white;
+            backdrop-filter: blur(2px) brightness(0.8);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: -30px;
+        }
+        #section05 .queQ{
+            font-size: 2rem;
+        }
+        #section05 .index{
+            font-size: 3rem;
+        }
+        #section05 p{
+            font-size: 1.5rem;
+        }
+
+        /* Location */
+        #location{
+        width: 100vw;
+        height: 100%;
+        }
+        /* story */
+        #story{
+        width: 100vw;
+        }
+    }
+    /* Home /
+    /* all */
+    *
+    html{
+            overflow-x: hidden;
+        }
+    
+    body{
+            background-color: rgb(255, 255, 255);
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+
+
+#section01,#section02,#section03,#section04,#section05,#section06{
+    position: relative;
+}
+#section04{
+    background-color:rgba(65, 53, 77,0.5) ;
+}
+h1.titleh1{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    color:rgb(255, 209, 149);
+}
+
+h4.titleh401{
+    display: inline-block;
+}
+
+.titlebtn{
+    font-style: italic;
+    display: inline-block;
+    background-color:rgb(93,155,132) ;
+    color: white;
+    width: 70px;
+    padding: 0;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 1rem;
+    margin-left: 0.2rem;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+#next_page{
+    display: inline-block;
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    bottom: 20%;
+    z-index: 3;
+    color: white;
+}
+#next_page svg path{
+    fill:rgba(255,255,255,0.8);
+}
+#next_page svg path:hover{
+    fill:rgb(93,155,132);
+}
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+    width: 50px;
+    height: 58px;
+}
+#footer{
+  width: 100vw;
+  height: 50px;
+  background: rgb(139, 139, 194);
+}
+/* section01 */
+.carousel-caption{
+    left: 70% !important;
+    right: 50px;
+    color: rgb(255, 255, 255);
+    font-style:italic;
+}
+.carousel-item{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item img{
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit:cover;
+}
+/* section02 */
+#section02{
+    background-image: url(../assets/changhua.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#map{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+#map svg path{
+    fill:rgba(255,255,255,0.5);
+    stroke: rgb(255, 255, 255);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#map svg path:hover{
+    fill:rgba(222, 126, 68,0.7);
+    transform: translate(-5px,-5px);
+}
+
+svg #圖層_1{
+  width: 100px;
+}
+
+
+
+#section02 h1{
+    font-size: 400;
+}
+
+#section02 tittle{
+    font-size: 400;
+}
+
+/* section03 */
+#section03{
+  width: 100vw;
+}
+#section03 .link-text{
+  color: rgb(93,155,132) !important;
+}
+
+/* section05 */
+
+#section05 .index{
+  margin-top:-10px;
+  color: rgb(222, 126, 68) ;
+  border: solid 1.5px rgb(255, 209, 149);
+}
+
+#section05 .queQ{
+  width: 100%;
+  margin-left: 2rem;
+  color: rgb(222, 126, 68);
+}
+#section05 .question{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+#section05 p{
+  width: 90%;
+  color: rgb(93,155,132) ;
+}
+
+.btn-green{
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(93,155,132) !important;
+  border: solid 2px rgb(255, 209, 149);
+  padding: 0 !important;
+}
+
+.aa{
+  transition: all 0.5s;
+  transform: rotate(-45deg);
+  display: inline-block;
+}
+
+.go{
+  transition: all 0.5s;
+  transform: rotate(0deg);
+  display: inline-block;
+}
+
+#section05 .card{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.0), 0 2px 10px 0 rgba(0,0,0,0.0) !important;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.0), 0 2px 10px 0 rgba(0,0,0,0.0) !important;
+}
+
+/* section06 */
+#section06{
+    background-color:rgba(65, 53, 77,0.5) ;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.15), 0 10px 10px rgba(0,0,0,0.11);
+}
+#section06 span{
+    font-size: 6rem;
+}
+
+.view{
+    display: inline-block;
+}
+
+.fb-img:hover img{
+    filter: brightness(60%);
+}
+
+
+.mask{
+    display: flex;
+    justify-content: center;
+}
+
+.fb-img{
+    width: 300px;
+    mask: url("../assets//FB/house.png") no-repeat center center / contain;
+}
+
+.p-small{
+    font-size: 1.8rem;
+}
+
+/* footer */
+.footer{
+    margin: auto !important;
+    margin-top: 0 !important;
+    background-color:rgba(65, 53, 77,0.9) !important;
+}
+footer.page-footer a {
+    color: rgb(255, 209, 149) !important;
+    font-size: 1.2rem;
+}
+
+footer.mt-4{
+  margin-top: 0 !important;
+}
+
+
+.tooltip .tooltip-inner{
+    background-color:rgb(222, 126, 68);
+}
