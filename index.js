@@ -44,12 +44,25 @@ app.use(session({
 }))
 
 app.use(cors({
-  // origin 來源網域
-  // callback(錯誤, 是否允許)
+  // origin 為請求來源網域, callback 為是否允許的回應
   origin (origin, callback) {
-    callback(null, true)
+    // 允許任何來源網域的請求
+    if (origin === undefined) {
+      callback(null, true)
+    } else {
+      if (process.env.ALLOW_CORS === 'true') {
+        // 開發環境，允許
+        callback(null, true)
+      } else if (origin.includes('github')) {
+        // 非開發環境，但是 是從github過來的，允許
+        callback(null, true)
+      } else {
+        // 不是開發環境，也不是從github過來的，拒絕
+        callback(new Error('Not allowed'), false)
+      }
+    }
   },
-  // 是否允許認證資訊
+  // 允許跨域認證
   credentials: true
 }))
 
