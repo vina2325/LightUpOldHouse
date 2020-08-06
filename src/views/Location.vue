@@ -362,7 +362,7 @@ export default {
         showConfirmButton: false,
         backdrop: `
         rgba(65, 53, 77,0.9)
-        url("https://drive.google.com/file/d/17b3SZAUDF6NUDIHGe5Dl44RZnkWfkdiq/view?usp=sharing")
+        url("https://raw.githubusercontent.com/vina2325/img/master/light2.gif")
         left bottom
         no-repeat
         `
