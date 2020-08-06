@@ -378,7 +378,7 @@ app.get('/find', async (req, res) => {
 //   }
 // })
 
-app.listen(5000, () => {
+app.listen(process.env.PORT, () => {
   console.log('網頁伺服器已啟動')
   console.log('http://localhost:5000')
 })
