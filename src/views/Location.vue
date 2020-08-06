@@ -362,7 +362,7 @@ export default {
         showConfirmButton: false,
         backdrop: `
         rgba(65, 53, 77,0.9)
-        url(public/img/light2.gif)
+        url("../public/img/light2.gif")
         left bottom
         no-repeat
         `
