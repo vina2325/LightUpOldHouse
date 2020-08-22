@@ -9,15 +9,15 @@
               <nav>
                 <div id="nav-tab" class="nav nav-tabs">
                   <ul class="list-group list-group-flush flex-row justify-content-center">
-                    <li class="list-group-item p-0"><a id="coffee1" class="nav-item nav-link active" data-toggle="tab" href="#coffee-01">平台介紹</a></li>
-                    <li class="list-group-item p-0"><a id="coffee2" class="nav-item nav-link" data-toggle="tab" href="#coffee-02">申請流程</a></li>
-                    <li class="list-group-item p-0"><a id="coffee3" class="nav-item nav-link" data-toggle="tab" href="#coffee-03">最新消息</a></li>
+                    <li class="list-group-item p-0"><a id="about1" class="nav-item nav-link active" data-toggle="tab" href="#about-01">平台介紹</a></li>
+                    <li class="list-group-item p-0"><a id="about2" class="nav-item nav-link" data-toggle="tab" href="#about-02">申請流程</a></li>
+                    <li class="list-group-item p-0"><a id="about3" class="nav-item nav-link" data-toggle="tab" href="#about-03">最新消息</a></li>
                   </ul>
                 </div>
               </nav>
             </div>
             <div class="tab-content bg-white p-3 overflow-auto" data-target="#nav-tab" style="height: 500px;">
-              <div id="coffee-01" class="tab-pane fade show active">
+              <div id="about-01" class="tab-pane fade show active">
               <h2>平台介紹</h2>
                 <p>
                   彰化縣建城近三百年，城鄉空間具有深厚歷史文化底蘊，各地都保有因應族群生活、交通貿易、產業發展脈絡的特色建築，見證地方人民的生活軌跡
@@ -32,22 +32,80 @@
                   本平台主要提供老屋屋主及想要經營老屋空間之民眾或單位，一個良好的交流平台，以及建置本縣歷史老屋活化再利用補助的各項申請資訊和歷史老屋活化的案例與故事，期盼在老屋供、需資訊的交流與公、私部門通力合作下，能吸引更多民眾投入老屋振興工作，並透過老屋的故事來認識彰化。
                 </p>
             </div>
-            <div id="coffee-02" class="tab-pane fade">
+            <div id="about-02" class="tab-pane fade">
               <h2>申請流程</h2>
-              <p>
-                根據美國俄亥俄州立大學1994年的研究，咖啡因的確能提高清醒度， 能提高細胞內環磷腺?的含量，小劑量能興奮大腦皮層， 振奮精神，改善思維，消除疲勞，加快反應，提昇工作效率。 大劑量則可興奮延腦呼吸中樞和血管運動中樞， 增加呼吸頻率，造成過度刺激，
-                產生焦慮、興奮、頭痛、失眠、心神不寧。 一般而言，每天 喝100-300毫克 的咖啡因，就足以提神，且對身體無害。 又根據 [ 美國國家糖尿病消化性腎臟研究院 ] 的研究指出， 咖啡因 與 降低罹患肝臟疾病的風險有相關， 也就是說一天喝1~2杯，肝臟保護功效。 咖啡因能促進胃酸的分泌，增進食欲，
-                加速食物的消化和吸收。咖啡還 刺激排便的作用。 咖啡因 的刺激會促進肌肉活動力， 但是刺激過多會導致抽筋、肌肉顫抖等。 咖啡因還可以抑制哮喘, 有支氣管藥物的功效， 常 喝咖啡者 較少氣喘。 咖啡含有與紅茶相似的氧化物chlorogenic acid（綠原酸）能很容易地被人體吸收，
-                具有保護腸道及預防直腸癌的作用。
+              <!-- part 1 -->
+              <h5>一、彰化縣歷史老屋補助</h5>
+              <p style="font-weight:500; margin-bottom:0;">
+                申請日期：
               </p>
-            </div>
-            <div id="coffee-03" class="tab-pane fade">
-              <h2>最新消息</h2>
               <p>
-                成長中的青少年 對咖啡因的興奮作用較敏感， 比較會有心悸..影響睡眠的情形。 咖啡因對有高血壓及心血管疾病的人有強心作用， 但同時也會使心跳加快，血壓增高， 亦容易引起心肌缺氧，對病情的控制不利。 懷孕的婦女過量的咖啡 會增加流產 及 胎兒發育遲緩的機會。 停經後的 婦女與老年人
-                過多的咖啡因會導致 鈣質的流失..骨質疏鬆症的機會。 咖啡因會刺激胃酸的分泌，胃潰瘍的患者可能惡化消化性潰瘍的病程。 空腹時不要喝咖啡，以免胃酸過多。 喝咖啡確實可能增加膽固醇，對心臟血管疾病的人非常不利。 咖啡中含有松烯（terpene芳香性碳水化合物）
-                這種油性的物質，對於心血管的影響因人而異， 但是通常它會造成血膽固醇上昇，不可不察。 這種物質的多寡 與 煮咖啡的方式有關： 如果是以高壓蒸氣 或 懸滴式咖啡機來煮時， 因為熱水與咖啡豆 接觸的時間短， 所以 terpene 被萃取出來的量少。
-                如果是以浸泡為主的煮法（如日本的塞風式咖啡機）， 熱水咖啡豆接觸時間長，則容易萃取出大量的 terpene。 因此，對於高膽固醇的人而言，建議少喝咖啡。 如要喝 要慎選煮法，並加上 濾紙 來過濾，對於 心血管比較健康。
+                即日起至109年9月30日止。
+              </p>
+              <p style="font-weight:500">申請資格：</p>
+              <ul>
+                <li>1. 建築物位於彰化縣（不含鹿港鎮）。</li>
+                <li>2. 民國60年（含）前興建完成。</li>
+                <li>3. 不具法定文化資產身分。</li>
+              </ul>
+              <p style="font-weight:500">補助類別及金額：</p>
+              <ul>
+                <li>1. 小型修繕類：每案最高補助50萬元。</li>
+                <li>2. 文化經營類：每案補助老屋承租人每月租金最高5,000元。</li>
+              </ul>
+              <!-- part 2 -->
+              <h5>二、鹿港鎮歷史老屋補助</h5>
+              <p>本縣已獲中央核定補助「千帆入港－再造鹿港歷史現場」專案計畫，為利經費有效利用，避免資源重複，鹿港地區的老屋修繕補助部分，將由該專案計畫給予歷史老屋活化再利用補助經費。另本計畫經費來源為文化部，如補助經費用罄，本計畫即終止。</p>
+              <p style="font-weight:500; margin-bottom:0;">
+                申請日期：
+              </p>
+                <p style="margin:o;">即日起至109年9月30日止。</p>
+              <p style="font-weight:500">申請資格：</p>
+              <ul>
+                <li>1. 建築物位於彰化縣鹿港鎮。</li>
+                <li>2. 民國60年（含）前興建完成。</li>
+                <li>3. 不具法定文化資產身分。</li>
+              </ul>
+              <p style="font-weight:500">補助類別及金額：</p>
+              <ul>
+                <li>1. 小型修繕類：每案最高補助60萬元；如同意修繕後無償提供給文化局使用五年者，最高可補助90萬元。</li>
+                <li>2. 文化經營類：每案補助老屋承租人每月租金最高8,000元。</li>
+              </ul>
+            </div>
+            <div id="about-03" class="tab-pane fade">
+              <h2>最新消息</h2>
+              <h5>【徵】家有老屋想出租嗎？</h5>
+              <p>
+                發布日期：2020-08-10| 更新日期：2020-08-20|彰化縣
+              </p>
+              <p style="font-weight:500">
+                徵家有老屋想出租嗎？
+              </p>
+              <p>
+                想出租老屋❓ 正在找老屋❓
+                「產業進駐老屋媒合平台」媒合了老屋的提供者與需求者，讓更多的老屋能結合創意迸發出新的想像。
+              </p>
+              <p style="font-weight:500">
+                老屋資格｜要符合什麼條件才能上架？
+              </p>
+              <p>
+                <ul>
+                  <li>1、老屋位在 彰化縣</li>
+                  <li>2、於民國60年前興建完成</li>
+                </ul>
+              </p>
+              <p style="font-weight:500">
+                老屋資格｜要符合什麼條件才能上架？
+              </p>
+              <p>
+                <ul>
+                  <li>1、填妥申請書</li>
+                  <li>2、 專人協助上架</li>
+                  <li>3、進行老屋媒合推廣</li>
+                </ul>
+              </p>
+              <p>
+                只要有位在彰化縣的老屋且在民國60年以前興建完成，都歡迎上架資訊至「老屋媒合平台」，一起看看目前有哪些老屋已經上架了呢 ?
               </p>
             </div>
             </div>
@@ -105,15 +163,6 @@ export default {
             width: 100vw;
             height: 100%;
         }
-        #about nav ul li a {
-            color: rgb(93,155,132) !important;
-        }
-        #about h2{
-            color: rgb(93,155,132) !important;
-        }
-        #about p{
-            color: rgb(93,155,132) !important;
-        }
         .container_about{
             padding-top: 20rem;
             padding-bottom: 5rem;
@@ -133,6 +182,22 @@ export default {
   }
 .nav-tabs {
   border-bottom: 0px solid #dee2e6 !important;
+}
+#about ul{
+  padding-left: 0;
+  list-style: none;
+}
+#about nav ul li a {
+  color: rgb(93,155,132) !important;
+}
+#about-01{
+  color: rgb(93,155,132) !important;
+}
+#about-02{
+  color: rgb(93,155,132) !important;
+}
+#about-03{
+  color: rgb(93,155,132) !important;
 }
 
 </style>
