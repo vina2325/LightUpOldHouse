@@ -233,7 +233,7 @@ export default {
   #login .content {
     width: 250px;
     margin: 0 auto;
-    top: 40%;
+    top: 45%;
     position: absolute;
     left: 50%;
     margin-left: -125px;
